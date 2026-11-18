@@ -19,3 +19,4 @@ R1(config)# -  장비의 설정 자체를 바꾸는 곳
 
 과제 2. Encrpyt 되지 않은 비밀번호 평문 암호화
 ![](../Attachments/Pasted%20image%2020261116202611.png)
+d
