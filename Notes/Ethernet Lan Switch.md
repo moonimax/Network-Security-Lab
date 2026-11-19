@@ -16,4 +16,17 @@ FCS
 
 MAC Address
 - 6-byte physical address assigned to the device
+- the first 3 bytes are the OUI(Organizationally Unique Identifier). which is assigned to the company.
+
+
+![](../Attachments/Pasted%20image%2020261118195334.png)
+
+Unknown Unicast frame = Flood
+
+자신과 관계없는 Dest로 전송된 목적지의 패킷은 무시된다. 여기서 추가 설명이 되면 좋을거 같은데 ....
+Dynamic MAC addresses are removed from the MAC addreess table after 5 minutes of inactivity. ..
+
+---
+
+
 
