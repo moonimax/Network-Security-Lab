@@ -28,5 +28,18 @@ Dynamic MAC addresses are removed from the MAC addreess table after 5 minutes of
 
 ---
 
+Duplex
+- Half Duplex : The device cannot send and receive data at the same time. 일방향 통신에 가까움. If it is receving a frame, it must wait before sending a frame
+- Full Duplex : The devicce can send and receive data at the same time. 양방향 통신이라고 생각.
+
+
+
+![](../Attachments/Pasted%20image%2020261119122526.png)
+
+In the meantime, hub simply the transfer of Data Loss. To prevent the collision of this situation they motivated CSMA/CD.
+- Carrier Sense Multiple Access
+
+![](../Attachments/Pasted%20image%2020261119123404.png)
+
 
 
