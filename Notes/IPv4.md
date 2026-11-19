@@ -21,25 +21,39 @@ DSCP
 	- 패킷 지연율이나 전송률 담당
 
 
-
+![](../Attachments/Pasted%20image%2020261119142519.png)
 ECN Field
 - Stands for explicit confgestion notification
 - Priveides end-to-end of network congestion without droppping packet.
 
-
+![](../Attachments/Pasted%20image%2020261119142527.png)
 Total length field
  : Indicates the total length of packet(L3 header segment) unlike IHL Header.
 
-
+![](../Attachments/Pasted%20image%2020261119142535.png)
 Identification field
 - compose of the same value in the field that fragmmented due to being too large.
 
-
+![](../Attachments/Pasted%20image%2020261119142542.png)
 Flags field
 - Control/ identify fragments
 - 3 bits
 - DF(Don't Fragment) - 단편화 멈춤
 - MF(More Fragment) - 뒤에 이어지는 조각이 있음을 뜻함
+
+
+
+Fragment Offset field
+- 단편화되거나 단편화되지 않은 Fragment를 찾아내서 IP 패킷을 찾는 위치이다.
+
+
+
+TTL
+- Time to Live
+- 패킷이 사라지지 않고 계속 유지되어 무한으로 네트워크에 잔류하는 것을 막는 기능
+
+
+
 
 
 
